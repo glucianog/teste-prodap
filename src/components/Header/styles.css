@@ -1,0 +1,8 @@
+.header-content {
+  color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  font: 700 32px Montserrat;
+
+  margin: 50px 0px;
+}
