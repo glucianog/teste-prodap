@@ -11,10 +11,10 @@ function Footer() {
         Feito por <strong> Gabriel Luciano </strong>
 
         <div className="footer-social">
-          <a href="https://www.linkedin.com/in/gabrielluciano/">
+          <a href="https://www.linkedin.com/in/gabrielluciano/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size="30"  color="#065687"/>
           </a>
-          <a href="https://www.github.com/glucianog/">
+          <a href="https://www.github.com/glucianog/" target="_blank" rel="noopener noreferrer">
             <FaGithubSquare size="30"  color="#065687"/>
           </a>
         </div>  
