@@ -1,0 +1,12 @@
+.default-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: var(--color-white);
+  background-color: var(--color-white);
+  border-radius: 12px;
+
+  min-height: 600px;
+  width: 500px;
+}
