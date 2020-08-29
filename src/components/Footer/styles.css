@@ -1,0 +1,18 @@
+.footer-content {
+  font: 500 16px Roboto;
+  color: var(--color-black);
+
+  position: fixed;
+  left: 0px;
+  bottom: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-content strong {
+  color: var(--color-dark-blue);
+}
+
+.footer-social a{
+  margin: 10px 5px;
+}
