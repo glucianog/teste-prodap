@@ -1,0 +1,18 @@
+button {
+  background: var(--color-dark-blue);
+  border: none;
+  border-radius: 7px;
+  color: var(--color-white);
+  font: 700 16px Roboto;
+  outline: none;
+
+  margin: 10px 0px;
+  padding: 10px 20px;
+
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: var(--color-light-blue);
+}
