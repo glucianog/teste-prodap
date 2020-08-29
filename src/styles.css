@@ -1,5 +1,10 @@
 :root {
   --color-background: #F0F0F7;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-gray: #c4c4c4;
+  --color-dark-blue: #065687;
+  --color-light-blue: #176799;
 }
 
 * {
