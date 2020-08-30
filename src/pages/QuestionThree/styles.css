@@ -27,7 +27,9 @@
 #page-question-three main fieldset .line-row{
   margin-top: 10px;
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 3fr 1fr;
   column-gap: 16px; 
 }
 
@@ -35,11 +37,36 @@
   margin-top:0 !important; 
 }
 
-#page-question-three main .error-label {
-  display: flex;
-  justify-content: center;
-  color: var(--color-warning);
-  font: 700 16px Montserrat;
+#page-question-three main fieldset .line-row button {
+  margin-top: 35px;
 }
+
+#page-question-three main fieldset .sort-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-question-three main fieldset .numbers-container {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  font: 700 24px Roboto;
+  color: var(--color-black);
+}
+
+#page-question-three main fieldset .numbers-container .number-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+#page-question-three main fieldset .numbers-container .number-block label {
+  min-width: 100px;
+}
+
+
+
 
 
