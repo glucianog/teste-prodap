@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Button from '../../components/Button';
 import DefaultPage from '../../components/DefaultPage';
@@ -9,10 +10,13 @@ function Home() {
   return (   
     <DefaultPage>
       <div className="button-container">
-        <Button 
-          onClick={() => console.log("CLICKOU 1")}
-          buttonText="Questão 1"      
-        />
+
+        <Link to="/question-one">
+          <Button 
+            onClick={() => {}}
+            buttonText="Questão 1"      
+          />
+        </Link>
 
         <Button 
           onClick={() => console.log("CLICKOU 2")}
