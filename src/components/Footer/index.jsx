@@ -8,14 +8,14 @@ function Footer() {
   return (
     <footer>
       <div className="footer-content">
-        Feito por <strong> Gabriel Luciano </strong>
+        Desenvolvido por <strong> Gabriel Luciano </strong>
 
         <div className="footer-social">
           <a href="https://www.linkedin.com/in/gabrielluciano/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin size="30"  color="#065687"/>
+            <FaLinkedin size="20"  color="#065687"/>
           </a>
           <a href="https://www.github.com/glucianog/" target="_blank" rel="noopener noreferrer">
-            <FaGithubSquare size="30"  color="#065687"/>
+            <FaGithubSquare size="20"  color="#065687"/>
           </a>
         </div>  
       </div>         
