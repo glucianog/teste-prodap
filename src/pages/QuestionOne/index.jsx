@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
 import BackButton from '../../components/BackButton';
-import PageDefault from '../../components/DefaultPage';
+import Button from '../../components/Button';
+import CurrencyInput from '../../components/CurrencyInput';
 import Input from '../../components/Input';
+import PageDefault from '../../components/DefaultPage';
 
 import './styles.css';
-import CurrencyInput from '../../components/CurrencyInput';
-import Button from '../../components/Button';
 
 function QuestionOne( props ) {
   const [name, setName] = useState();
