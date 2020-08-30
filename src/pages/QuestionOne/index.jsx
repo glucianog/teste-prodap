@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
 import BackButton from '../../components/BackButton';
-import PageDefault from '../../components/DefaultPage';
+import Button from '../../components/Button';
+import CurrencyInput from '../../components/CurrencyInput';
 import Input from '../../components/Input';
+import PageDefault from '../../components/DefaultPage';
 
 import './styles.css';
-import CurrencyInput from '../../components/CurrencyInput';
-import Button from '../../components/Button';
 
 function QuestionOne( props ) {
   const [name, setName] = useState();
@@ -27,7 +27,7 @@ function QuestionOne( props ) {
     setTotal(totalSalary.toFixed(2));
   }
   
-  function handleCalculateSalary(event) {
+  function handleSubmit(event) {
     event.preventDefault();
 
     if(name && salary && sales) {
@@ -42,7 +42,7 @@ function QuestionOne( props ) {
     <PageDefault>
       <div id="page-question-one" className="container"> 
         <main>
-          <form onSubmit={handleCalculateSalary}>
+          <form onSubmit={handleSubmit}>
             <fieldset>
               <legend>
                 Dados do funcionário                
