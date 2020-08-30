@@ -96,7 +96,7 @@ function QuestionThree() {
                           <Input
                             name="number"
                             type="number"
-                            label={`Insira até ${amountOfNumbers} números`}
+                            label={`Insira ${amountOfNumbers} números`}
                             placeholder="Digite um número"
                             value={number}
                             onChange={object => setNumber(object.target.value)}
