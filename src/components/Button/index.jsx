@@ -5,7 +5,7 @@ import './styles.css';
 function Button( props ) {
   return (
     <button 
-      type="button" 
+      type={props.type? props.type : "button"}
       onClick={props.onClick}
     >
       {props.buttonText}             
