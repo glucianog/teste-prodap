@@ -27,7 +27,7 @@ function QuestionOne( props ) {
     setTotal(totalSalary.toFixed(2));
   }
   
-  function handleCalculateSalary(event) {
+  function handleSubmit(event) {
     event.preventDefault();
 
     if(name && salary && sales) {
@@ -42,7 +42,7 @@ function QuestionOne( props ) {
     <PageDefault>
       <div id="page-question-one" className="container"> 
         <main>
-          <form onSubmit={handleCalculateSalary}>
+          <form onSubmit={handleSubmit}>
             <fieldset>
               <legend>
                 Dados do funcionário                
