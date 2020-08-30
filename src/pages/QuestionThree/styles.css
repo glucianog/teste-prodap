@@ -58,12 +58,8 @@
 #page-question-three main fieldset .numbers-container .number-block {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 10px;
-}
-
-#page-question-three main fieldset .numbers-container .number-block label {
-  min-width: 100px;
 }
 
 
