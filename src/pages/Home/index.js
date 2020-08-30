@@ -18,10 +18,12 @@ function Home() {
           />
         </Link>
 
-        <Button 
-          onClick={() => console.log("CLICKOU 2")}
-          buttonText="Questão 2"      
-        />
+        <Link to="/question-two">
+          <Button 
+            onClick={() => {}}
+            buttonText="Questão 2"      
+          />
+        </Link>
 
         <Button 
           onClick={() => console.log("CLICKOU 3")}
