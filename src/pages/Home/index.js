@@ -25,10 +25,11 @@ function Home() {
           />
         </Link>
 
-        <Button 
-          onClick={() => console.log("CLICKOU 3")}
-          buttonText="Questão 3"      
-        />
+        <Link to="/question-three">
+          <Button
+            buttonText="Questão 3"      
+          />
+        </Link>
       </div> 
     </DefaultPage>
   );
