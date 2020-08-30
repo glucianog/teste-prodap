@@ -26,14 +26,16 @@ function QuestionThree() {
   }
 
   function insertNumber() {
-    if (number % 2 === 0) {
-      setEvenNumbers([...evenNumbers, number]);     
-    } else {
-      setOddNumbers([...oddNumbers, number]);       
+    if (number) {
+      if (number % 2 === 0) {
+        setEvenNumbers([...evenNumbers, number]);     
+      } else {
+        setOddNumbers([...oddNumbers, number]);       
+      }
+      setNumber('');
+      setAllNumbers([...allNumbers, number]);
+      setInsertedNumbers(insertedNumbers + 1);
     }
-    setNumber('');
-    setAllNumbers([...allNumbers, number]);
-    setInsertedNumbers(insertedNumbers + 1);
   }
 
   function removeNumber(number) {
@@ -53,7 +55,7 @@ function QuestionThree() {
 
   function resetValues() {
     setAmountOfNumbers('');
-    setInsertedNumbers('');
+    setInsertedNumbers(0);
     setIsSorted(false);
     setEvenNumbers([]);
     setOddNumbers([]);
