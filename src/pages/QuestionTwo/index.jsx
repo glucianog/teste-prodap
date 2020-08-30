@@ -8,10 +8,10 @@ import Input from '../../components/Input';
 import Button from '../../components/Button';
 
 function QuestionTwo() {
-  const [x1, setX1] = useState();
-  const [y1, setY1] = useState();
-  const [x2, setX2] = useState();
-  const [y2, setY2] = useState();
+  const [x1, setX1] = useState('');
+  const [y1, setY1] = useState('');
+  const [x2, setX2] = useState('');
+  const [y2, setY2] = useState('');
   const [totalDistance, setTotalDistance] = useState();
   const [hasErrors, setHasErrors] = useState(false);
 

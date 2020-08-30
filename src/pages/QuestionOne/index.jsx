@@ -9,10 +9,10 @@ import PageDefault from '../../components/DefaultPage';
 import './styles.css';
 
 function QuestionOne( props ) {
-  const [name, setName] = useState();
-  const [salary, setSalary] = useState();
-  const [sales, setSales] = useState();
-  const [total, setTotal] = useState();
+  const [name, setName] = useState('');
+  const [salary, setSalary] = useState('');
+  const [sales, setSales] = useState('');
+  const [total, setTotal] = useState('');
   const [hasErrors, setHasErrors] = useState(false);
 
   function calculateTotal() {
