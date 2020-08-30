@@ -1,7 +1,7 @@
 
 # Projeto Teste PRODAP
 
-Para testar esta aplicação, basta acessar a aplicação no [Vercel](https://desafio-tecnico-prodap.vercel.app/). Caso o site não esteja funcionando, siga os passos abaixo.
+Para testar esta aplicação, basta acessá-la no [Vercel](https://desafio-tecnico-prodap.vercel.app/). Caso o site não esteja funcionando, siga os passos abaixo.
 
 ## Requisitos
 
