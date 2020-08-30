@@ -9,8 +9,8 @@ import Input from '../../components/Input';
 import './styles.css';
 
 function QuestionThree() {
-  const [amountOfNumbers, setAmountOfNumbers] = useState();
-  const [number, setNumber] = useState();
+  const [amountOfNumbers, setAmountOfNumbers] = useState('');
+  const [number, setNumber] = useState('');
   const [insertedNumbers, setInsertedNumbers] = useState(0);
   const [isSorted, setIsSorted] = useState(false);
   
@@ -125,7 +125,7 @@ function QuestionThree() {
                       {allNumbers.map((number, index) => {
                         return (
                           <div key={index} className="number-block">
-                            <label htmlFor="number"> {number} </label>
+                            {number} 
                             {!isSorted && (
                               <FaTrashAlt 
                                 size="20"  
