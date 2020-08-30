@@ -42,7 +42,7 @@ Se tudo correu bem, você deverá ser capaz de instalar o node pelo comando:
 Acesse o [site oficial do Node.js](http://nodejs.org/) e baixe o instalador.
 Além disso, certifique-se de ter o `git` disponível e configurado nas suas variáveis de ambiente, o `npm` poderá precisar dele.
 
-## Installação
+## Instalação
 
     $ git clone https://github.com/glucianog/teste-prodap.git
     $ cd teste-prodap
