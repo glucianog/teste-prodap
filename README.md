@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Projeto Teste PRODAP
 
-In the project directory, you can run:
+Para testar esta aplicação, basta acessar a aplicação no [Vercel](https://desafio-tecnico-prodap.vercel.app/). Caso o site não esteja funcionando, siga os passos abaixo.
 
-### `yarn start`
+## Requisitos
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para desenvolvimento, você precisará somente do Node.js instalado em seu ambiente. 
+### Node
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[Node](http://nodejs.org/) é bem simples de ser instalado e agora inclui o [NPM](https://npmjs.org/). 
+Você deve ser capaz de rodar os seguintes comandos, após o procedimento de instalação abaixo.
 
-### `yarn test`
+    $ node --version
+    v0.10.24
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    $ npm --version
+    1.3.21
 
-### `yarn build`
+#### Instalação do Node no OS X
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Você precisará utilizar um Terimnal. No OS X, você pode encontrar o terminal padrão em:
+`/Applications/Utilities/Terminal.app`.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Favor instalar o [Homebrew](http://brew.sh/), caso já não esteja instelado, com o seguinte comando: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
-### `yarn eject`
+Se tudo correu bem, você deverá ser capaz de instalar o node pelo comando:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    brew install node
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Instalação do Node no Linux
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    sudo apt-get install python-software-properties
+    sudo add-apt-repository ppa:chris-lea/node.js
+    sudo apt-get update
+    sudo apt-get install nodejs
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Instalação do Node no Windows
 
-## Learn More
+Acesse o site o [site oficial do Node.js](http://nodejs.org/) e baixe o instalador.
+Além disso, certifique-se de ter o `git` disponível e configurado nas suas variáveis de ambiente, o `npm` poderá precisar dele.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installação
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    $ git clone https://github.com/glucianog/teste-prodap.git
+    $ cd teste-prodap
+    $ npm install
 
-### Code Splitting
+## Inicializar a aplicação
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+    $ npm start 
