@@ -40,14 +40,20 @@ function QuestionThree() {
 
   function removeNumber(number) {
     if (number % 2 === 0) {
-      const numbersArray = evenNumbers.filter(item => item !== number);
+      const numbersArray = evenNumbers;
+      const numberIndex = numbersArray.indexOf(number);
+      numbersArray.splice(numberIndex, 1);
       setEvenNumbers(numbersArray);     
     } else {
-      const numbersArray = oddNumbers.filter(item => item !== number);
+      const numbersArray = oddNumbers;
+      const numberIndex = numbersArray.indexOf(number);
+      numbersArray.splice(numberIndex, 1);
       setOddNumbers(numbersArray);      
     }
-    const numbersArray = allNumbers.filter(item => item !== number);
-    console.log(numbersArray);
+
+    const numbersArray = allNumbers;
+    const numberIndex = numbersArray.indexOf(number);
+    numbersArray.splice(numberIndex, 1);
     setAllNumbers(numbersArray)
 
     setInsertedNumbers(insertedNumbers - 1);
